@@ -56,13 +56,14 @@ body{
 }
 
 #samples{
-    margin-top: 300px;
-    text-align: center;
+    margin: auto;
 }
+
 #samples h1{
     font-weight: bold;
-
 }
-#home div{
-    margin: auto;
+#samples div{
+    background-color: #afafaf;
+    max-width: 390px;
+    float: left;
 }
