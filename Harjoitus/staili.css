@@ -12,12 +12,12 @@
     float: right;
 }
 #trio a{
-    font-family: "Microsoft YaHei UI", sans-serif;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     color: black;
     padding-inline: 100px;
+
 
 }
 #trio a:hover{
@@ -35,16 +35,34 @@
 
 #content{
     margin: auto;
-    max-width: 1500px;
+    max-width: 1200px;
     background-color: #969696;
 }
 body{
     background-color: rgb(197, 192, 187);
+    font-family: Arial, sans-serif;
 }
 
 #home{
-    text-align: justify;
+    margin-top: 300px;
+    text-align: center;
+}
+#home h1{
+    font-weight: bold;
+
 }
 #home img{
+    margin: auto;
+}
+
+#samples{
+    margin-top: 300px;
+    text-align: center;
+}
+#samples h1{
+    font-weight: bold;
+
+}
+#home div{
     margin: auto;
 }
