@@ -1,17 +1,50 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  display: inline;
-}
 #topbar{
-    background-color: cadetblue;
+    background-color: #afafaf;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
 }
-#logo{
-    background-color: cornflowerblue;
+#trio{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 25px;
+    font-size: 40px;
+    float: right;
 }
-.trio{
-    background-color: darkolivegreen;
+#trio a{
+    font-family: "Microsoft YaHei UI", sans-serif;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-inline: 100px;
+
+}
+#trio a:hover{
+    background-color: #6a6a6a;
+    color: rgb(197, 192, 187);
+}
+#topbar img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin: auto;
+    float: left;
+}
+
+
+#content{
+    margin: auto;
+    max-width: 1500px;
+    background-color: #969696;
+}
+body{
+    background-color: rgb(197, 192, 187);
+}
+
+#home{
+    text-align: justify;
+}
+#home img{
+    margin: auto;
 }
