@@ -1,3 +1,4 @@
+/* ---TOP BAR--- */
 #topbar{
     background-color: #afafaf;
     overflow: hidden;
@@ -32,7 +33,7 @@
     float: left;
 }
 
-
+/* ---MAIN PAGESSS--- */
 #content{
     margin: auto;
     max-width: 1200px;
@@ -43,6 +44,8 @@ body{
     font-family: Arial, sans-serif;
 }
 
+
+/* ---HOME--- */
 #home{
     margin-top: 300px;
     text-align: center;
@@ -55,6 +58,11 @@ body{
     margin: auto;
 }
 
+
+/* ---PRODUCT--- */
+#products{
+    display: none;
+}
 #samples{
     margin: auto;
 }
