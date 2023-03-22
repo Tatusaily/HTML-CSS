@@ -62,16 +62,38 @@ body{
 /* ---PRODUCT--- */
 #products{
     display: none;
+
 }
 #samples{
     margin: auto;
+    text-align: center;
+    overflow: hidden;
 }
 
 #samples h1{
     font-weight: bold;
 }
 #samples div{
-    background-color: #afafaf;
+    background-color: rgb(175, 175, 175);
     max-width: 390px;
+    margin: 5px;
+    float: left;
+}
+
+/* ---CONTACT--- */
+#contact{
+    display: none;
+}
+#contact div{
+    margin: auto;
+    overflow: hidden;
+}
+#contact div img{
+    margin: auto;
+    float: right;
+    max-width: 70%;
+}
+#contact div ul{
+    margin: auto;
     float: left;
 }
