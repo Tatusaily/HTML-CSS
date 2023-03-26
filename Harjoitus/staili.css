@@ -8,20 +8,17 @@
 #trio{
     list-style-type: none;
     margin: 0;
-    padding-top: 25px;
     font-size: 30px;
     float: right;
 }
-#trio a{
+#trio li{
     display: inline-block;
     text-align: center;
     text-decoration: none;
     color: black;
-    padding-inline: 100px;
-
-
+    padding: 35px;
 }
-#trio a:hover{
+#trio li:hover{
     background-color: #6a6a6a;
     color: rgb(197, 192, 187);
 }
